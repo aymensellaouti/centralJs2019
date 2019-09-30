@@ -1,3 +1,14 @@
-console.log('Bon');
+var i = 0;
+testInterval();
 
-console.log('SI2');
+function testInterval() {
+    var code = setInterval(function () {
+        if (i < 22) {
+            console.log(i);
+            i++
+        } else {
+            clearInterval(code);
+        }
+    }, 100, code);
+}
+
