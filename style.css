@@ -1,0 +1,21 @@
+.para {
+    color: red;
+    background-color: yellow;
+}
+
+.maPolice {
+    font-family: Garamond;
+    font-size: 24px;
+    color: blue;
+}
+
+#ampoule {
+    width: 150px;
+    height: 150px;
+    border: black 2px solid;
+    padding: 50px;
+}
+
+.ampoule {
+    background-color: yellow;
+}
